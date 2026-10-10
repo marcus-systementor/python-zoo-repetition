@@ -43,7 +43,7 @@ def animal_menu(animal):
             if animal.feed(amount):
                 print("Djuret har matats.")
             else:
-                print("Mängden måste vara större än 0. Hunger ändrades inte.")
+                print("Mängden måste vara större än 0 och får inte överstiga djurets hunger. Hunger ändrades inte.")
         elif choice == "3":
             return
         else:
