@@ -6,13 +6,10 @@ class Animal:
         self.hunger = 5
 
     def feed(self, amount):
-        if amount <= 0:
+        if amount <= 0 or amount > self.hunger:
             return False
 
-        if amount >= self.hunger:
-            self.hunger = 0
-        else:
-            self.hunger -= amount
+        self.hunger -= amount
         return True
 
     def show_status(self):

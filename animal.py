@@ -5,5 +5,5 @@ class Animal:
         self.species = species
         self.hunger = 5
 
-    # TODO (step 8): Add a feed method that protects hunger.
-    # TODO (step 9): Add a status method, or use a regular function in main.py.
+    # TODO (step 7): Add a feed method that protects hunger.
+    # TODO (step 8): Add a status method, or use a regular function in main.py.
